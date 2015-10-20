@@ -31,8 +31,8 @@
          <children>
             <HBox prefHeight="27.0" prefWidth="780.0">
                <children>
-                  <Button minWidth="-Infinity" mnemonicParsing="false" text="&lt;-" />
-                  <Button minWidth="-Infinity" mnemonicParsing="false" text="-&gt;" />
+                  <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#goBack" text="&lt;-" />
+                  <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#goForward" text="-&gt;" />
                   <TextField fx:id="addressBar" minWidth="-Infinity" onKeyPressed="#onKeyPressed" prefHeight="19.0" prefWidth="0.0" HBox.hgrow="ALWAYS" />
                   <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#goToAddress" text="Go" />
                </children>
